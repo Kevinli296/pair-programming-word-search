@@ -20,7 +20,7 @@ describe("#wordSearch()", function() {
     assert.isFalse(result);
   });
 
-  it("should return false if the word is present", function() {
+  it("should return false if the word is not present", function() {
     const result = wordSearch([
       ['A', 'W', 'C', 'F', 'Q', 'U', 'A', 'L'],
       ['S', 'E', 'I', 'N', 'F', 'E', 'L', 'D'],
@@ -67,7 +67,7 @@ describe("#wordSearch()", function() {
     assert.isTrue(result);
   });
 
-  it("should return false if the word is present", function() {
+  it("should return false if the word is not present", function() {
     const result = wordSearch([
       ['S', 'W', 'C', 'S', 'Q', 'U', 'A', 'L'],
       ['E', 'T', 'N', 'E', 'E', 'D', 'P', 'H'],
@@ -83,7 +83,7 @@ describe("#wordSearch()", function() {
     assert.isFalse(result);
   });
 
-  it("should return false if the word is present", function() {
+  it("should return false if the word is not present", function() {
     const result = wordSearch([
       ['S', 'W', 'C', 'S', 'Q', 'U', 'A', 'L'],
       ['E', 'T', 'N', 'E', 'E', 'D', 'P', 'H'],
@@ -98,7 +98,7 @@ describe("#wordSearch()", function() {
 
     assert.isFalse(result);
   });
-  it("should return false if the word is present", function() {
+  it("should return false if the word is not present", function() {
     const result = wordSearch([
       ['S', 'W', 'C', 'S', 'Q', 'U', 'A', 'L'],
       ['E', 'T', 'N', 'E', 'E', 'D', 'P', 'H'],
